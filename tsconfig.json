@@ -4,9 +4,22 @@
     "module": "commonjs",                                      
     "outDir": "./build",                          
     "rootDir": "./src",
+    "baseUrl": "./src",
     "strict": true,         
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-  }
+    "paths": {
+      "*": [
+        "*"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
 }
