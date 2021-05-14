@@ -12,3 +12,6 @@ export default () => {
 
 	return router;
 }
+
+export * from './companies.types';
+export * as Service from './companies.service';

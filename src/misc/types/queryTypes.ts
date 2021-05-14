@@ -1,4 +1,5 @@
 export type ListOptions = {
-	limit?: number;
-	offset?: number;
+  limit?: number;
+  offset?: number,
+  sort?: any;
 }
